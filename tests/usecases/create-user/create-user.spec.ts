@@ -1,4 +1,4 @@
-import { UserData } from "../../../src/usecases/create-user/user-data";
+import { UserData } from "../../../src/entities/user-data";
 
 describe('Create user use case', () => {
     test('should add user with complete data to db', async () => {
